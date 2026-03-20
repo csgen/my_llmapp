@@ -71,7 +71,7 @@ tests:
 
   # Test 4: Very short positive text
   - vars:
-      text: 'I am happy'
+      text: 'Great'
     assert:
       - type: is-json
       - type: javascript
